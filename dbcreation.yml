@@ -1,0 +1,8 @@
+---
+
+
+ - name: Database Server Installation & Database Creation
+   hosts: database-servers
+   user: oracle
+   roles:
+   - oradb-create
